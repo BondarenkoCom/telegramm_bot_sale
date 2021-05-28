@@ -1,7 +1,7 @@
 import telebot
 from collections import defaultdict
 
-bot = telebot.TeleBot('972401596:AAHLbg8qDItn8PeVhr2vkByoKb-egkyXU7M')
+bot = telebot.TeleBot('Token')
 START, NumberPhone, NICKNAME, LoadMess = range(4)
 USER_STATE = defaultdict(lambda: START)
 
